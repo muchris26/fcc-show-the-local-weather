@@ -50,7 +50,7 @@ $(document).ready(function() {
     //var lon = -34;
     // console.log(lat, lon);
 
-    var weatherAPI = 'http://api.openweathermap.org/data/2.5/weather?appid=18236d9c672ffbd35a21265440e217b5&';
+    var weatherAPI = 'https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?appid=18236d9c672ffbd35a21265440e217b5&';
     var latlon = "lat=" + lat + "&lon=" + lon  
 
     var url = weatherAPI+latlon;
