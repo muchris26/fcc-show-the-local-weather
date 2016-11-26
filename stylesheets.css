@@ -1,0 +1,24 @@
+body {
+  backgrund-color: #AAA;
+  background-position: center;
+}
+#temp {
+  font-size: 2em;
+}
+#icn {
+  margin: auto;
+}
+#box  {
+  opacity: .7;
+  background-color: white;
+  color: black;
+  margin: 10% 25% 10% 25%;
+  padding: 5% 10% 5% 10%;
+  border-radius: 25px;
+}
+#heading {
+  font-size: 2em;
+}
+#loc {
+  font-size: 1.5em;
+}
