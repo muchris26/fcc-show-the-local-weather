@@ -44,13 +44,13 @@ $(document).ready(function() {
     navigator.geolocation.getCurrentPosition(showPosition);
   };
   function showPosition(pos) {
-    // var lat = pos.coords.latitude;
-    //var lon = pos.coords.longitude;
-    var lat = -50;
-    var lon = -34;
+    var lat = pos.coords.latitude;
+    var lon = pos.coords.longitude;
+    //var lat = -50;
+    //var lon = -34;
     // console.log(lat, lon);
 
-    var weatherAPI = 'http://api.openweathermap.org/data/2.5/weather?appid=18236d9c672ffbd35a21265440e217b5&';
+    var weatherAPI = 'https://api.openweathermap.org/data/2.5/weather?appid=18236d9c672ffbd35a21265440e217b5&';
     var latlon = "lat=" + lat + "&lon=" + lon  
 
     var url = weatherAPI+latlon;
